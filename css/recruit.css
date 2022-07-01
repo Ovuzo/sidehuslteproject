@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    background: red;
 }
 
 .bg-blue {
@@ -44,6 +45,9 @@
 .bg-primary, .btn-primary{
     background: rgba(39, 118, 234, 1)!important;
 }
+a{
+    text-decoration: none;
+}
 .hero-bg{
     background: url("../img/R-hero.img.png") no-repeat center center/cover;
 }
@@ -51,10 +55,10 @@
     height: inherit;
     align-content: center;
 }
-.ex-hero-btn-wrap{
+.ex-hero-btns-wrap{
     background: rgba(245, 245, 245, 1)!important;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .carrd{
         max-width: 100%;
         border: none;
@@ -75,7 +79,7 @@
 }
 @media (max-width: 767px) {
     .carrd{
-        max-width: 100%;
+        max-width: 80%;
         border: none;
     }
     .hero-txt{
