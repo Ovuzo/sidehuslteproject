@@ -43,9 +43,7 @@
 
 .bg-primary, .btn-primary{
     background: rgba(39, 118, 234, 1)!important;
-}
-a{
-    text-decoration: none;
+
 }
 .hero-bg{
     background: url("../img/R-hero.img.png") no-repeat center center/cover;
@@ -54,13 +52,16 @@ a{
     height: inherit;
     align-content: center;
 }
-.ex-hero-btns-wrap{
+.ex-hero-btn-wrap{
     background: rgba(245, 245, 245, 1)!important;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .carrd{
         max-width: 100%;
         border: none;
+    }
+    .card-text{
+        font-size: 12px!important;
     }
     .hero-txt{
         align-content: center;
@@ -78,8 +79,11 @@ a{
 }
 @media (max-width: 767px) {
     .carrd{
-        max-width: 80%;
+        max-width: 100%;
         border: none;
+    }
+    .card-text{
+        font-size: 12px!important;
     }
     .hero-txt{
         align-content: center;
