@@ -15,27 +15,30 @@
     color: rgba(255,255,255,.75);
 }
 
-.btn-outline-blue {
-    width: 113px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    background-color: transparent;
-    color: #fff;
-}
-
-.btn-outline-blue:hover {
-    border: 2px solid transparent;;
-    border-radius: 8px;
-    background-color: #fff;
-    color: rgba(39, 118, 234, 1);
-}
-
 .bg-footer {
     background-color: rgba(8, 24, 47, 1);
 }
 
 .fs-14 {
     font-size: 14px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .mobile {
+        display: block;
+    }
+
+    .navbar-nav i {
+        display: none;
+    }
+
+    .navbar-nav {
+        font-weight: bold;
+    }
 }
 
 
@@ -52,11 +55,11 @@
     height: inherit;
     align-content: center;
 }
-.more{
-    width: 50%;
-}
 .ex-hero-btn-wrap{
     background: rgba(245, 245, 245, 1)!important;
+}
+.more{
+    width: 50%!important;
 }
 @media (max-width: 768px) {
     .carrd{
@@ -95,7 +98,7 @@
         width: 100%;
     }
     .find{
-        width: 80%;
+        width: 50%;
     }
 }
 @media (max-width: 767px) {
@@ -139,8 +142,7 @@
         margin: auto;
         margin-top: 10px;
     }
-    /* .more{
-        width:20% ;
-    } */
-    
+    .more{
+        width: 100%;
+    }
 }
