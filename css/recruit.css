@@ -52,6 +52,9 @@
     height: inherit;
     align-content: center;
 }
+.more{
+    width: 20%;
+}
 .ex-hero-btn-wrap{
     background: rgba(245, 245, 245, 1)!important;
 }
@@ -136,4 +139,8 @@
         margin: auto;
         margin-top: 10px;
     }
+    /* .more{
+        width:20% ;
+    } */
+    
 }
