@@ -85,14 +85,18 @@
 .more{
     width: 50%!important;
 }
+.selet:focus-visible{
+    outline: none!important;
+}
+.select-button{
+    border:1px solid rgba(85,85,85,1)!important;
+}
 @media (max-width: 768px) {
     .carrd{
         max-width: 100%;
         border: none;
     }
-    .hero-bg{
-        
-    }
+   
     .card-text{
         font-size: 12px!important;
     }
