@@ -1,3 +1,5 @@
+/*Anonymous*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
@@ -16,7 +18,7 @@
 }
 
 .btn-outline-blue {
-    width: 118px;
+    width: 113px;
     border: 2px solid #fff;
     border-radius: 8px;
     background-color: transparent;
@@ -38,29 +40,52 @@
     font-size: 14px;
 }
 
+
+
+
+
+/*Logged-in*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-blue {
+    background-color: rgba(39, 118, 234, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
+
+.bg-footer {
+    background-color: rgba(8, 24, 47, 1);
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
 .mobile {
     display: none;
 }
 
 @media (max-width: 992px) {
-    .btn-outline-blue {
-        border: none;
-        width: auto;
-        /* font-weight: 400 !important; */
+    .mobile {
+        display: block;
     }
 
-    .btn-outline-blue:hover {
-        border: none;
-        background-color: transparent;
-        color: #fff;
+    .navbar-nav i {
+        display: none;
     }
 
     .navbar-nav {
         font-weight: bold;
-    }
-
-    .mobile {
-        display: block;
     }
 }
 
@@ -137,6 +162,9 @@
        width: 50%;
 
        margin-left: 5%;
+    }
+    .more{
+        width: 100%;
     }
 }
 @media (max-width: 767px) {
